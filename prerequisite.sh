@@ -38,8 +38,10 @@ export GOPATH/usr/local/go
 
 export PATH$PATH$GOPATH/bin
 
-curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 
 sudo apt-get install -y nodejs
 
-curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.0.0 1.4.7
+sudo groupadd docker
+
+sudo usermod -aG docker $USER
