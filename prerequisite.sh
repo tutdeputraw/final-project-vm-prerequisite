@@ -38,7 +38,7 @@ export GOPATH/usr/local/go
 
 export PATH$PATH$GOPATH/bin
 
-curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 
 sudo apt-get install -y nodejs
 
