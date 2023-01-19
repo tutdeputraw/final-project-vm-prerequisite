@@ -34,9 +34,9 @@ tar -xzvf go1.13.12.linux-amd64.tar.gz
 
 sudo mv go/ /usr/local
 
-echo 'export GOPATH/usr/local/go' >> ~/.bashrc
+echo 'export GOPATH=/usr/local/go' >> ~/.bashrc
 
-echo 'export PATH$PATH$GOPATH/bin' >> ~/.bashrc
+echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.bashrc
 
 source ~/.bashrc
 
