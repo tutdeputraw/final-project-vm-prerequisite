@@ -34,9 +34,11 @@ tar -xzvf go1.13.12.linux-amd64.tar.gz
 
 sudo mv go/ /usr/local
 
-export GOPATH/usr/local/go
+echo 'export GOPATH/usr/local/go' >> ~/.bashrc
 
-export PATH$PATH$GOPATH/bin
+echo 'export PATH$PATH$GOPATH/bin' >> ~/.bashrc
+
+source ~/.bashrc
 
 curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 
